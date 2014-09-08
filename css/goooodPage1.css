@@ -3,7 +3,7 @@
 
 /* start of the header */
 
-@media (min-width: 1000px) {
+
 
 #header{
     position: relative;
@@ -839,4 +839,6 @@ border:none;
 background-color:#b9b9b9;   
  }
 
+
+@media (min-width: 768px) {
 }
