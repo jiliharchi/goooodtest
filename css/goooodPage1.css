@@ -3,6 +3,8 @@
 
 /* start of the header */
 
+@media (max-width: 768px) {
+
 #header{
     position: relative;
     top: 0;
@@ -837,4 +839,4 @@ border:none;
 background-color:#b9b9b9;   
  }
 
-
+}
