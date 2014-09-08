@@ -3,7 +3,7 @@
 
 /* start of the header */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
 #header{
     position: relative;
