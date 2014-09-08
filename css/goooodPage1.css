@@ -1,9 +1,10 @@
 
-/* hidden nav bar */
-#container{
-    margin-left: auto ;
-    margin-right: auto ;
-} 
+/* Determine devices */
+
+@media screen and (min-width: 60.000em){
+
+
+/* start of the header */
 
 #header{
     position: relative;
@@ -11,143 +12,141 @@
     left: 0;
     z-index: 1;
     width: 100%;
+    background-color:#ffffff;
 } 
 
 
-#header-light{
-    text-align:center; 
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%; 
-    background-color: white; 
-    height:22px;
-} 
-
-.indicate{
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-
-#sub-header-nav{
-    margin-left: auto ;
-    margin-right: auto ;
-    width: 960px;
-    position: relative;
-    overflow: hidden;
-}
-
-
-.sub-nav-title{
-	text-align: center;
-    color: #5590C5;
-    font-family: "Microsoft YaHei";
-    font-size: 18px;
-}
-
-
-.nav {
-	text-align: left;
-    color: #888889;
-    font-family: "Microsoft YaHei";
-    font-size: 14px;
-   
-}
-
-
-.sub-nav {
-    color: #5590C5;
-    font-size: 14px;
-}
-
-.sub-nav2 {
-    color: #5590C5;
-    font-size: 12px;
-}
-
-
-a.sub-nav2:link {
-    color:#5590C5;
-}
-
-
-a.sub-nav2:visited {
-    color:#5590C5;
-}
-
-.nav-end {
-    text-align: center;
-    color: #888889;
-    font-family: "Microsoft YaHei";
-    font-size: 14px;
-
-   
-}
-
-
-
-.naviShowMenu{
-    padding-top: 60px;
-    text-align: center;
-    color: #5590C5;
-    font-family: "Microsoft YaHei";
-    font-size: 14px;
-}
-
-/* unvisited link */
-a:link {
-    color: #888889;
-}
-
-/* visited link */
-a:visited {
-    color: #888889;
-}
-
-ul{
-    list-style-type: none;
-    padding-left: 0px; 
-}
-
-
-
-
-/* show nav bar */
-
-#header-nav{
+    /* hidden nav bar */
     
-    margin-left: auto ;
-    margin-right: auto ;
-    padding-bottom: 8px;
-    height: 100px ;
-    width: 960px;
-    position: relative;
+    .indicate{
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+    
+    
+    #sub-header-nav{
+        margin-left: auto ;
+        margin-right: auto ;
+        width: 60.000em;
+        position: relative;
+    }
+    
+    
+    .sub-nav-title{
+    	text-align: center;
+        color: #5590C5;
+        font-family: "Microsoft YaHei";
+        font-size: 18px;
+    }
+    
+    
+    .nav {
+    	text-align: left;
+        color: #888889;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em; 
+        float:left; 
+    }
+    
+    
+    .sub-nav {
+        color: #5590C5;
+    }
+    
+    .sub-nav2 {
+        color: #5590C5;
+        font-size: 0.750em;
+    }
+    
+    
+    a.sub-nav2:link {
+        color:#5590C5;
+    }
+    
+    
+    a.sub-nav2:visited {
+        color:#5590C5;
+    }
+    
+    .nav-end {
+        text-align: center;
+        color: #888889;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* show nav bar */
+    
+    #header-nav{ 
+        margin-left: auto ;
+        margin-right: auto ;
+        padding-bottom: 0.500em;
+        height: 6.250em ;
+        width: 60.000em;
+        position: relative;
+    }
+    
+    #button {
+        text-align: center; 
+        padding-top: 60px;
+    }
+    
+    #button2 {
+        position:absolute;
+       top:20px;
+       right:20px;
+    }
+    
+     
+    .naviLine {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+        height: 2px;
+        background-color: #5590C5;
+        width:"100%"
+    }
 
-}
-
-#button {
-    text-align: center; 
-    padding-top: 60px;
-}
-
-#button2 {
-    position:absolute;
-   top:20px;
-   right:20px;
-}
-
- 
-.naviLine {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: none;
-    height: 2px;
-    background-color: #5590C5;
-    width:"100%"
-}
-
+    .naviShowMenu{
+        padding-top: 60px;
+        text-align: center;
+        color: #5590C5;
+        font-family: "Microsoft YaHei";
+        font-size: 14px;
+    }
+    
+    /* unvisited link */
+    a:link {
+        color: #888889;
+    }
+    
+    /* visited link */
+    a:visited {
+        color: #888889;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-left: 0px; 
+    }
+    
+    
+    #header-light{
+        text-align:center; 
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%; 
+        background-color: white; 
+        height:1.375em;
+    } 
 
 /* all-content */
 
@@ -764,34 +763,35 @@ a.appendixA{
 /* inputStyle */
 
 form{ 
-margin:0px; padding:0px; 
-font:14px; 
+margin:0px; 
+padding:0px; 
+font:0.875em; 
 } 
 
 label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 50%;
-    text-align: right;
+ display: inline-block;
+ float: left;
+ clear: left;
+ width: 50%;
+ text-align: right;
 }
-input.txt{ 
-font:14px Arial; 
-display: inline-block;
-  float: left;
 
+input.txt{ 
+font:0.875em Arial; 
+display: inline-block;
+float: left;
 } 
 
 input.txt1{ 
-font:14px Arial; 
-
+font:0.875em Arial; 
 }
+
 .txt{ 
 
 border-bottom:1px solid #888889; 
-border-top:0px; 
-border-left:0px; 
-border-right:0px; 
+border-top:0; 
+border-left:0; 
+border-right:0; 
 background-color:transparent; 
 
 } 
@@ -799,21 +799,18 @@ background-color:transparent;
 .txt1{ 
 
 border-bottom:1px solid #888889; 
-border-top:0px; 
-border-left:0px; 
-border-right:0px; 
+border-top:0; 
+border-left:0; 
+border-right:0; 
 background-color:transparent; 
 
-} 
-.btn{ 
-background-color:transparent; 
-border:0px; 
-cursor:pointer; 
 } 
 
 input:focus{
 outline:none;
 }
+
+
 
 /* button */
 
@@ -844,4 +841,4 @@ background-color:#b9b9b9;
  }
 
 
-
+}
