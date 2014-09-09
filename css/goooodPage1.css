@@ -3,7 +3,7 @@
 
 /* Desktop Version */
 
-@media screen and (min-width: 900px) {
+@media screen  {
 
 /* start of the header */
 
@@ -105,37 +105,35 @@
        right:20px;
     }
     
+    .naviShowMenu{
+        padding-top: 4.250em;
+        text-align: center;
+        color: #5590C5;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em;
+    }
+
      
     .naviLine {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0;
         border: none;
-        height: 2px;
+        height: 0.125em;
         background-color: #5590C5;
         width:"100%"
     }
 
-    .naviShowMenu{
-        padding-top: 60px;
-        text-align: center;
-        color: #5590C5;
-        font-family: "Microsoft YaHei";
-        font-size: 14px;
-    }
-    
-    /* unvisited link */
+   
     a:link {
         color: #888889;
     }
     
-    /* visited link */
     a:visited {
         color: #888889;
     }
     
     ul{
         list-style-type: none;
-        padding-left: 0px; 
+        padding-left: 0; 
     }
     
     
@@ -145,9 +143,14 @@
         left: 0;
         z-index: 1;
         width: 100%; 
-        background-color: white; 
+        background-color: #ffffff; 
         height:1.375em;
     } 
+
+
+
+
+
 
 /* all-content */
 
@@ -157,8 +160,10 @@ body{
 
 
 #contentHolderBackground{
-    padding-top: 30px;
+    padding-top: 1.875em;
     background-color:#f4f4f4;
+    position: relative;
+    height:276.250em;
 } 
 
 #contentHolder{
@@ -166,73 +171,48 @@ body{
     position: relative;
     margin-left: auto ;
     margin-right: auto ;
-    width: 960px;
+    width: 60.000em;
 } 
 
-
-
-.content-text{
- background-color:#ffffff;
- width: 300px;
- text-align: center;
- padding-top: 30px;
- height: 714px;
-}
-
-.content-text2{
- background-color:#ffffff;
- width: 300px;
- text-align: center;
- padding-top: 20px;
- height: 442px;
-}
-
-hr.content-div{
-height: 1px;
-border: 0 none;
-width: 66%;
-background: #c9c9c7;
-}
-
-
-
-.content-divSpare{
- font-size: 1px;
-}
-
-.content{
- background-color:#ffffff;
- text-align: center;
- width: 300px;
- height: 362px;
-}
-
-.content-2{
- background-color:#ffffff;
- text-align: center;
- width: 630px;
- height: 574px;
-}
-
-
 .content-bottom{
-  margin: 30px;
-  padding-bottom: 10px;
+  margin: 1.875em;
+  padding-bottom: 0.625em;
+  text-align: center;
+  font-family:"Microsoft YaHei";
 }
 
+.content-ln1{
+ font-size: 1.000em;
+ color: #595757;
+}
+
+.content-2-ln1{
+ font-size: 1.250em;
+ color: #595757;
+}
+
+.content-2-ln2{
+ font-size: 0.750em;
+ color: #c9c9c7;
+}
+
+.content-2-ln3{
+ font-size: 0.750em;
+ color: #898989;
+}
 
 
 .advertise{
- margin: 0px;
- padding: 0px;
- width: 300px; 
- height: 192px;
+ margin: 0;
+ padding: 0;
+ width: 18.750em; 
+ height: 12.000em;
  background-color:#6c6c6c;
 }
 
 ul.advertise {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 
@@ -244,8 +224,8 @@ ul.advertise {
 }
 
 ul.advertiseIndicator {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 
@@ -257,80 +237,28 @@ ul.advertiseIndicator {
 }
 
 
-.advertiseHolder2{
-    margin: 0px;
-    padding: 0px;
-    width: 300px; 
-    height: 250px;
-    background-color:#6c6c6c; 
-}
-
-
-/* all-font */
-
-.content-ln1{
- font-family:"Microsoft YaHei";
- font-size: 16px;
+.content-text{
+ background-color:#ffffff;
+ width: 18.750em;
  text-align: center;
- color: #595757;
-}
-
-.content-2-ln1{
+ padding-top: 1.875em;
+ height: 44.625em;
  font-family:"Microsoft YaHei";
- font-size: 20px;
- text-align: center;
- color: #595757;
+ text-align: left;
+ color: #7D7D7D;
 }
-
-.content-2-ln2{
- font-family:"Microsoft YaHei";
- font-size: 12px;
- text-align: center;
- color: #c9c9c7;
-}
-
-.content-2-ln3{
- font-family:"Microsoft YaHei";
- font-size: 12px;
- text-align: center;
- color: #898989;
-}
-
 
 .content-2-ln4header{
- font-family:"Microsoft YaHei";
- font-size: 14px;
- text-align: left;
- color: #7D7D7D;
+ font-size: 0.875em;
  line-height:50%;
- padding-left: 50px;
- padding-right: 50px;
+ padding-left: 3.625em;
 }
 
-.content-2-ln4headerF{
- font-family:"Microsoft YaHei";
- font-size: 14px;
- text-align: left;
- color: #7D7D7D;
- line-height:50%;
- padding-left: 50px;
- padding-right: 50px;
-}
-
-p.content-2-ln4headerF{
-    margin-top:3px;
-    margin-bottom:18px;
-    line-height:100%;
-}
 
 .content-2-ln4{
- font-family:"Microsoft YaHei";
- font-size: 12px;
- text-align: left;
- color: #7D7D7D;
+ font-size: 0.750em;
  line-height:50%;
- padding-left: 50px;
- padding-right: 50px;
+ padding-left: 4.125em;
 }
 
 p.content-2-ln4{
@@ -339,42 +267,90 @@ p.content-2-ln4{
     line-height:100%;
 }
 
-a {
-    text-decoration: none;
+
+hr.content-div{
+height: 1px;
+border: 0 none;
+width: 66%;
+background: #c9c9c7;
 }
 
-a.content-2-ln4{
-
+.content-divSpare{
+ font-size: 1px;
 }
 
 
+.content{
+ background-color:#ffffff;
+ text-align: center;
+ width: 18.750em;
+ height: 22.625em;
+}
+
+.content-2{
+ background-color:#ffffff;
+ text-align: center;
+ width: 39.375em;
+ height: 35.875em;
+}
+
+
+.advertiseHolder2{
+    margin: 0;
+    padding: 0;
+    width: 18.750em; 
+    height: 15.625em;
+    background-color:#6c6c6c; 
+}
+
+.content-text2{
+ background-color:#ffffff;
+ width: 18.750em;
+ text-align: left;
+ padding-top: 1.250em;
+ height: 27.625em;
+ font-family:"Microsoft YaHei";
+}
 
 .content-2-ln4Limit{
- font-family:"Microsoft YaHei";
- font-size: 12px;
- text-align: left;
+ font-size: 0.750em;
  color: #7D7D7D;
  line-height:50%;
- padding-left: 50px;
- padding-right: 50px;
+ padding-left: 4.125em;
+ padding-right: 3.125em;
 }
 
 p.content-2-ln4Limit{
-    margin-top:3px;
-    margin-bottom:3px;
+    margin-top:0.188em;
+    margin-bottom:0.188em;
     line-height:100%;
 }
 
 
-a.content-2-ln4Limit{
-
+.content-2-ln4headerF{
+ font-size: 0.875em;
+ color: #7D7D7D;
+ line-height:50%;
+ padding-left: 3.525em;
+ padding-right: 3.125em;
 }
+
+p.content-2-ln4headerF{
+    margin-top:0.188em;
+    margin-bottom:1.125em;
+    line-height:100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* pages */
 
 .all-pages {
     font-family:"Microsoft YaHei";
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 ul.pagesTable{
@@ -383,32 +359,28 @@ ul.pagesTable{
 
 li.pages {
   display:inline;
-  margin: 6px;
+  margin: 0.375em;
 }
+
 
 
 /* community */
 
 #footerHolder{
     background-color: #fbfbfb;
-    padding-bottom: 15px;
+    padding-bottom: 0.938em;
 }
 
 .happening {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 30px;
+    padding-top: 0.938em;
+    padding-bottom: 0.938em;
+    margin-top: 1.875em;
     margin-left: auto ;
     margin-right: auto ;
-    width: 960px;
+    width: 60.000em;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-}
-
-
-
-.commTitle{
     color: #C9C9C7;
 }
 
@@ -418,7 +390,7 @@ li.pages {
     position: relative;
     margin-left: auto ;
     margin-right: auto ;
-    width: 960px;
+    width: 60.000em;
     background: #ededed;
     font-family:"Microsoft YaHei";
     overflow: hidden;
@@ -427,29 +399,88 @@ li.pages {
 
 .comm_All {
     color: #898989;
-    font-family:"Microsoft YaHei";
-    font-size: 12px;
+    font-size: 0.750em;
     float:left;
+    width:45%;
 }
 
 .comm_pic {
-    padding: 3px;
-    margin-top: 3px;
+    padding: 0.188em;
+    margin-top: 0.188em;
+    margin-right: 0.313em;
     float:left;
 }
 
 .comm_upload {
-    padding-top: 3px;
-    margin-top: 3px;
-    margin-bottom: 6px;
-    width:370px;
+    padding-top: 0.188em;
+    margin-top: 0.188em;
+    margin-bottom: 0.375em;
     float:left;
 }
 
 .comm_middleSpace {
-    width:81px;
+    width:10%;
     float:left;
 }
+
+/* appendix */
+
+.appendixHolder {
+    background-color: #fbfbfb;
+    height: 2.500em;
+}
+
+.all-appendix {
+    font-family:"Microsoft YaHei";
+    font-size: 0.750em;
+}
+
+ul.appendixTable{
+    display: block; 
+    text-align:center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.813em;
+}
+
+li.appendix {
+  display:inline;
+  margin: 1px;
+}
+
+a.appendixA{
+    color: #cacaca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* popUp */
 #popUpText {
@@ -558,34 +589,7 @@ a.shareA:visited {
 
 
 
-/* appendix */
 
-.appendixHolder {
-    background-color: #fbfbfb;
-    height: 40px;
-}
-
-.all-appendix {
-    font-family:"Microsoft YaHei";
-    font-size: 12px;
-}
-
-ul.appendixTable{
-    display: block; 
-    text-align:center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 13px;
-}
-
-li.appendix {
-  display:inline;
-  margin: 1px;
-}
-
-a.appendixA{
-    color: #cacaca;
-}
 
 
 

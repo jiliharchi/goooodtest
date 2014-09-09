@@ -413,3 +413,12 @@ $(document).ready(function() {
   });
 })
 
+
+/*
+// max content height
+jQuery('#contentHolder > .all-pages').each(function() {
+  console.log(jQuery(this).height());
+    jQuery(this).parent().height('+=' + jQuery(this).height()*92);
+    jQuery(this).css('position', 'absolute');
+});
+*/
