@@ -3,7 +3,7 @@
 
 /* start of the header */
 
-
+@media screen and (min-width: 900px) {
 
 #header{
     position: relative;
@@ -839,3 +839,17 @@ border:none;
 background-color:#b9b9b9;   
  }
 
+}
+
+@media screen and (max-device-width: 480px) {
+
+    #header{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color:black;
+} 
+
+}
