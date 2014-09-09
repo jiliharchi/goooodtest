@@ -1,9 +1,11 @@
 
 /* Determine devices */
 
-/* start of the header */
+/* Desktop Version */
 
 @media screen and (min-width: 900px) {
+
+/* start of the header */
 
 #header{
     position: relative;
@@ -840,6 +842,9 @@ background-color:#b9b9b9;
  }
 
 }
+
+
+/* iphone Version */
 
 @media screen and (max-device-width: 480px) {
 
