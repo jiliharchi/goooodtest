@@ -11,6 +11,11 @@
     <meta name="goooodPage1" content="goooodPage1">
     <meta name="author" content="JiliHuang">
     <script type="text/javascript" src="script\jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+      if (screen.width <= 800) {
+        window.location = "http://htmlpreview.github.io/?https://github.com/jiliharchi/goooodtest/blob/master/goooodPage2.html";
+      }
+    </script>
 
     <title>goooodPage1</title>
     <link rel="stylesheet" type="text/css" media="all" href="css\goooodPage1.css">
@@ -46,7 +51,7 @@
                             <br><a class="sub-nav">关注我们 Join Us</a></br>
                             <li><a>邮件订阅杂志部分Newletter</a></li> 
                             <li><form action="gooood_form.asp">
-                              <input onfocus="if (this.value=='Enter your email') this.value = ''" type="text" name="name" id="name" class="txt1" value="Enter your email" style="width:100px; color:#c9c9c7">
+                              <input onfocus="if (this.value=='Enter your email') this.value = ''" type="text" name="name" class="txt1" value="Enter your email" style="width:100px; color:#c9c9c7">
                               <a class="sub-nav2" href="#">Sign me up</a>
                             </form>
                             </li> 
@@ -92,8 +97,8 @@
                             <br><a class="sub-nav">我的账号 i-gooood</a></br>
 
                             <form action="gooood_form.asp" id="login1" onSubmit="return validate(this);">
-                              登录邮箱 Email: <input type="text" name="name" id="name" class="txt1" value="" style="width:6.250em;"><br>
-                              密码 Password: <input type="password" name="pwd" id="pwd" class="txt1" value="" style="width:6.375em;"><br>
+                              登录邮箱 Email: <input type="text" name="email" class="txt1" style="width:6.250em;"><br>
+                              密码 Password: <input type="password" name="pwd" class="txt1" style="width:6.375em;"><br>
                             </form>
 
                             <li style="margin-top:0; ">
@@ -102,7 +107,7 @@
                               <a style="cursor: pointer;" id="keyValiTrigger1">登录 Log in</a>
                             </li>
                             <li>
-                              <a style="cursor: pointer;" class="findkeyTrigger">找回密码 Forgot Password</a>
+                              <a style="cursor: pointer;" id="findkeyTrigger1">找回密码 Forgot Password</a>
                             </li>
                             <li>
                               
@@ -120,7 +125,7 @@
                     <div class = "nav-end" >
                             <div>&nbsp;</div>
                             <form action="gooood_search.asp" class="sub-nav">
-                              <label>搜索 Search: </label><input type="text" name="name" id="name" class="txt" value="" style="width:6.250em;"><br>
+                              <label>搜索 Search: </label><input type="text" name="name" class="txt" style="width:6.250em;"><br>
                             </form>
                     </div>
 
@@ -590,11 +595,9 @@
               <p class="content-2-ln2">建筑 Architecture</p>
               <p class="content-2-ln3">Lone酒店的室外泳池</p>
             </div>
-       </div>
+       </div> 
 
-      </div> 
-
-       <div class ="all-pages"  style = "position: absolute; top: 310.938em; left:22.500em; ">
+       <div class ="all-pages"  style = "position: absolute; top: 310.938em; left:21.500em; ">
          <ul class = "pagesTable">
            <li class = "pages"><a id="xx" href="#" onclick="xx;"><前页</a></li>
            <li class = "pages"><a id="xx" href="#" onclick="xx;">1</a></li>
@@ -610,7 +613,7 @@
            <li class = "pages"><a id="xx" href="#" onclick="xx;">后页></a></li>
          </ul>
        </div>
-
+   </div>
  </div> 
 </div>      
 
@@ -773,62 +776,29 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--buttons-->
   <div class="floatTextBox">
-    <div href="#" class="floatTextBoxTrigger" style="opacity: 1; cursor: pointer; width:30px;">
+    <div href="#" class="floatTextBoxTrigger" style="opacity: 1; cursor: pointer; width:1.875em;">
     <img src="img\arrow88.png" 
          onmouseover="this.src='./img/arrow881.png';"
          onmouseout="this.src='./img/arrow88.png';"
-         alt style="width: 30px; height: 30px; display: inline;">
+         alt style="width: 1.875em; height: 1.875em; display: inline;">
     </div>
   </div>
 
   <div class="back-to-top">
-    <div href="#" class="back-to-topTrigger" style="opacity: 1; cursor: pointer; width:30px;">
+    <div href="#" class="back-to-topTrigger" style="opacity: 1; cursor: pointer; width:1.875em;">
     <img src="img\arrow89.png"
         onmouseover="this.src='./img/arrow891.png';"
          onmouseout="this.src='./img/arrow89.png';"
-         alt style="width: 30px; height: 30px; display: inline;">
+         alt style="width: 1.875em; height: 1.875em; display: inline;">
     </div>
   </div>
 
 
 
 
-<!--button detail-->
+<!--popup detail-->
   <div id="popUpText" style="opacity: 1 ;display: none;">
           <div class = "popUpHolder">
 
@@ -836,26 +806,26 @@
 
 
             <form action="gooood_search.asp" class="sub-nav">
-                              <label>搜索 Search:</label> <input type="text" name="name" id="name" class="txt" value="" style="width:100px;"><br>
+                              <label>搜索 Search:</label> <input type="text" name="name" class="txt" style="width:6.250em;"><br>
                             </form>
 
             <div class = "popUp-nav">
               <ul >
                  <a class="sub-nav">我的账号 i-gooood</a>
                  <form action="gooood_form.asp" id="login2" onSubmit="return validate(this);">
-                   <label> 登录邮箱 Email:</label> <input type="text" name="name" id="name" class="txt" value="" style="width:100px;"><br>
-                   <label> 密码 Password:</label> <input type="password" name="pwd" id="pwd" class="txt" value="" style="width:100px;"><br>
+                   <label> 登录邮箱 Email:</label> <input type="text" name="email" class="txt" style="width:6.250em;"><br>
+                   <label> 密码 Password:</label> <input type="password" name="pwd" class="txt" style="width:6.250em;"><br>
                   </form>
 
                   <div style="clear:both;"></div>
                         
-                            <li style="margin-top:0px;">
+                            <li style="margin-top:0;">
                               <a style="cursor: pointer;" id="registryTrigger2">注册 Register</a>
                               <a >&nbsp;&nbsp;</a>
                               <a style="cursor: pointer;" id="keyValiTrigger2">登录 Log in</a>
                             </li>
                             <li>
-                              <a style="cursor: pointer;" class="findkeyTrigger">找回密码 Forgot Password</a>
+                              <a style="cursor: pointer;" id="findkeyTrigger2">找回密码 Forgot Password</a>
                             </li>
                             <li>
                               
@@ -945,28 +915,38 @@
   <div id="registryText" style="opacity: 1 ;display: none;">
           <div class = "registryHolder">
 
-            <p >欢迎加入谷德</p>
-            <p style="color:#888889;">Welcome to gooood</p>
+            <p id="ifConfirmFalse">欢迎加入谷德</p>
+            <p style="color:#888889;" id="ifConfirmFalseE">Welcome to gooood</p>
             <p class="content-divSpare">&nbsp;</p>
 
             <div class="registryAll">
 
-            <form action="gooood_form.asp">
-              <label> 登录邮箱 Email: </label><input type="text" name="name" id="name" class="txt" value="" style="width:100px;"><br>
-              <label> 密码 password: </label><input type="password" name="pwd" id="pwd" class="txt" value="" style="width:100px;"><br>
-              <label> 密码确认 password: </label><input type="password" name="pwd" id="pwd" class="txt" value="" style="width:100px;"><br>
+            <form action="gooood_form.asp" id="createRegit">
+              <label> 登录邮箱 Email: </label><input type="text" name="name" class="txt" style="width:6.250em;"><br>
+              <label> 密码 password: </label><input type="password" name="pwd" class="txt" id="createRegit1" style="width:6.250em;"><br>
+              <label> 密码确认 password: </label><input type="password" name="pwd" class="txt" id="createRegit2" style="width:6.250em;"><br>
               
             </form>
             </div>
             <p class="content-divSpare2">&nbsp;</p>
 
 
-            <a style="cursor: pointer;" id="buttonAD"/>注册 Register</a>
+            <a style="cursor: pointer;" class="buttonAD" id ="regitConfirm">注册 Register</a>
 
 
            <div href="#" id="button3" style="cursor: pointer;"><img src="img\closing.png"></div>
          </div>
   </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -982,16 +962,16 @@
 
             <div class="ValiAll">
 
-            <form action="gooood_form.asp">
-               <label>登录邮箱 Email: </label><input type="text" name="name" id="name" class="txt" value="" style="width:100px;"><br>
-               <label>密码 password: </label><input type="password" name="pwd" id="pwd" class="txt" value="" style="width:100px;"><br>
+            <form action="gooood_form.asp" id="login3" onSubmit="return validate(this);">
+               <label>登录邮箱 Email: </label><input type="text" name="email" class="txt1" style="width:6.250em;"><br>
+               <label>密码 password: </label><input type="password" name="pwd" class="txt1" style="width:6.375em;"><br>
             </form>
             </div>
             <p class="content-divSpare2">&nbsp;</p>
 
 
-            <a style="cursor: pointer;" id="buttonAD" class="findkeyTrigger"/>忘记密码 Forgot Password</a>
-            <a style="cursor: pointer;" id="buttonAD" >登录 Log in</a>
+            <a style="cursor: pointer;" class="buttonAD" id="findkeyTrigger3"/>忘记密码 Forgot Password</a>
+            <a style="cursor: pointer;" class="buttonAD" id="keyValiTrigger3">登录 Log in</a>
 
 
            <div href="#" id="button4" style="cursor: pointer;"><img src="img\closing.png"></div>
@@ -1010,15 +990,15 @@
 
             <div class="findkeyAll">
 
-            <form action="gooood_form.asp">
-               <label>邮箱 email:</label> <input type="text" name="name" id="name" class="txt" value="" style="width:100px;"><br>
+            <form action="gooood_form.asp" id="createFK">
+               <label>邮箱 email:</label> <input type="text" name="name" class="txt" style="width:6.250em;"><br>
             </form>
             </div>
             <p class="content-divSpare2">&nbsp;</p>
 
 
-            <a style="cursor: pointer;" id="buttonAD" class="findkeyCancel"/>取消 Cancel</a>
-            <a style="cursor: pointer;" id="buttonAD"/>确定 Confirm</a>
+            <a style="cursor: pointer;" class="buttonAD" id="findkeyCancel"/>取消 Cancel</a>
+            <a style="cursor: pointer;" class="buttonAD" id="FKConfirm"/>确定 Confirm</a>
 
 
            <div href="#" id="button5" style="cursor: pointer;"><img src="img\closing.png"></div>

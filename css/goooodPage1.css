@@ -2,9 +2,9 @@
 /* Determine devices */
 
 /* Desktop Version */
-
+/*
 @media screen  {
-
+*/
 /* start of the header */
 
 #header{
@@ -100,9 +100,9 @@
     }
     
     #button2 {
-        position:absolute;
-       top:20px;
-       right:20px;
+       position:absolute;
+       top:1.250em;
+       right:1.250em;
     }
     
     .naviShowMenu{
@@ -348,13 +348,12 @@ a {
 
 /* pages */
 
-.all-pages {
-    font-family:"Microsoft YaHei";
-    font-size: 0.875em;
-}
-
-ul.pagesTable{
-    display: block; text-align:center;
+.all-pages{
+ width: 25.000em;
+ height: 1.313em;
+ font-family:"Microsoft YaHei";
+ font-size: 0.875em;
+ text-align: center;
 }
 
 li.pages {
@@ -456,30 +455,22 @@ a.appendixA{
 
 
 
+/* button */
+.floatTextBox{
+    position: fixed; 
+    right:50%; 
+    margin-right:31.875em;
+    top:2.500em; 
+    height:1.875em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.back-to-top{
+    position: fixed; 
+    left:50%; 
+    margin-left:31.875em;
+    bottom:3.438em; 
+    height:1.875em; 
+}
 
 
 /* popUp */
@@ -488,8 +479,8 @@ a.appendixA{
     z-index:15;
      top:50%;
      left:50%;
-     margin-left:-316px;
-     margin-top:-177px;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
     height:auto;
 
 }
@@ -500,22 +491,22 @@ a.appendixA{
     border-style: solid;
     border-width: 1px;
     border-color: #A4C7E0;
-    width: 630px;
+    width: 39.375em;
     height: auto;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-    padding-top: 62px; 
-    padding-bottom: 76px;
+    padding-top: 3.875em; 
+    padding-bottom: 4.750em;
 }
 
 .popUp-nav {
     text-align: center;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;  
-    margin-top: 33px;
-    margin-bottom: 33px;
+    font-size: 0.875em;  
+    margin-top: 2.063em;
+    margin-bottom: 2.063em;
 }
 
 li.popUp-navLI {
@@ -526,18 +517,18 @@ li.popUp-navLI {
 .all-share {
     text-align:center;
     font-family:"Microsoft YaHei";
-    font-size: 12px;
-    padding-top: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 0.750em;
+    padding-top: 0.625em;
+    margin-left: 6.250em;
+    margin-right: 6.250em;
 }
 
 .all-shareDetail{
     width:100%;
     text-align:left;
     font-family:"Microsoft YaHei";
-    font-size: 14px;
-    padding-left: 40px;
+    font-size: 0.875em;
+    padding-left: 2.500em;
 }
 
 li.share {
@@ -548,44 +539,25 @@ li.share {
 li.share1 {
   display:inline;
   margin: 1px;
- color: #c9c9c7;
-    font-family: "Microsoft YaHei";
-    font-size: 14px;
+  color: #c9c9c7;
+  font-family: "Microsoft YaHei";
+  font-size: 0.875em;
 }
 
 
-
-/* unvisited link */
 a.shareA:link {
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
-/* visited link */
 a.shareA:visited {
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
-/* button */
-.floatTextBox{
-    position: fixed; 
-    right:50%; 
-    margin-right:510px;
-    top:40px; 
-    height:30px;
-}
 
-.back-to-top{
-    position: fixed; 
-    left:50%; 
-    margin-left:510px;
-    bottom:55px; 
-    height:30px; 
-
-}
 
 
 
@@ -601,8 +573,8 @@ a.shareA:visited {
      z-index:15;
      top:50%;
      left:50%;
-     margin-left:-316px;
-     margin-top:-177px;
+     margin-left:-17.250em;
+     margin-top:-11.063em;
      height:auto;
 
 }
@@ -611,27 +583,25 @@ a.shareA:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #A4C7E0;
-    width: 430px;
+    width: 26.875em;
     height: auto;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-    padding-top: 38px; 
-    padding-left: 60px; 
-    padding-right: 60px;
-    padding-bottom: 58px;
+    padding-top: 2.375em; 
+    padding-left: 3.750em; 
+    padding-right: 3.750em;
+    padding-bottom: 3.625em;
 }
 
-
-
 .content-divSpare2{
- font-size: 10px;
+ font-size: 0.625em;
 }
 
 #button6 {
-    position:absolute;
-   top:20px;
-   right:20px;
+   position:absolute;
+   top:1.250em;
+   right:1.250em;
 }
 
 
@@ -642,8 +612,8 @@ a.shareA:visited {
      z-index:15;
      top:50%;
      left:50%;
-     margin-left:-316px;
-     margin-top:-177px;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
      height:auto;
 
 }
@@ -652,13 +622,13 @@ a.shareA:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #A4C7E0;
-    width: 630px;
+    width: 39.375em;
     height: auto;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-    padding-top: 38px; 
-    padding-bottom: 58px;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
 }
 
 .registryAll {
@@ -666,17 +636,17 @@ a.shareA:visited {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;  
+    font-size: 0.875em;  
 }
 
 .content-divSpare2{
- font-size: 10px;
+ font-size: 0.625em;
 }
 
 #button3 {
     position:absolute;
-   top:20px;
-   right:20px;
+   top:1.250em;
+   right:1.250em;
 }
 
 
@@ -689,8 +659,8 @@ a.shareA:visited {
      z-index:15;
      top:50%;
      left:50%;
-     margin-left:-316px;
-     margin-top:-177px;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
      height: auto;
 
 }
@@ -699,27 +669,27 @@ a.shareA:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #A4C7E0;
-    width: 630px;
+    width: 39.375em;
     height: auto;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-    padding-top: 38px; 
-    padding-bottom: 58px;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
 }
 
 .ValiAll {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;  
+    font-size: 0.875em;  
 }
 
 
 #button4 {
     position:absolute;
-   top:20px;
-   right:20px;
+   top:1.250em;
+   right:1.250em;
 }
 
 
@@ -730,8 +700,8 @@ a.shareA:visited {
      z-index:15;
      top:50%;
      left:50%;
-     margin-left:-316px;
-     margin-top:-177px;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
      height:auto;
 
 }
@@ -740,27 +710,27 @@ a.shareA:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #A4C7E0;
-    width: 630px;
+    width: 39.375em;
     height: auto;
     background: white;
     font-family:"Microsoft YaHei";
     text-align:center;
-    padding-top: 38px; 
-    padding-bottom: 58px;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
 }
 
 .findkeyAll {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 14px;  
+    font-size: 0.875em;  
 }
 
 
 #button5 {
     position:absolute;
-   top:20px;
-   right:20px;
+   top:1.250em;
+   right:1.250em;
 }
 
 
@@ -819,37 +789,37 @@ outline:none;
 
 /* button */
 
-#buttonAD{
+.buttonAD{
     text-decoration:none; 
     text-align:center; 
- padding:10px 40px; 
+ padding:0.625em 2.500em; 
  border:none; 
  -webkit-border-radius:4px;
  -moz-border-radius:4px; 
  border-radius: 4px; 
- font:12px Arial, Helvetica, sans-serif; 
+ font:0.750em Arial, Helvetica, sans-serif; 
  font-weight:bold; 
  color:#888889; 
  background-color:#f4f4f4; 
  
   
-  }#buttonAD:hover{
+  }.buttonAD:hover{
 border:none; 
  background-color:#ededed; 
  
   
  }
 
- #buttonAD:active{
+ .buttonAD:active{
     border:none; 
 background-color:#b9b9b9;   
  }
-
+/*
 }
-
-
+*/
+/*
 /* iphone Version */
-
+/*
 @media screen and (max-device-width: 480px) {
 
     #header{
@@ -862,3 +832,4 @@ background-color:#b9b9b9;
 } 
 
 }
+*/

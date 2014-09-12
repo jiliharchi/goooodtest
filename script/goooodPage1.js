@@ -210,6 +210,20 @@
 
           //registry
 
+document.getElementById("regitConfirm").onclick = function() {
+  var pwd1 = document.getElementById("createRegit1").value;
+  var pwd2 = document.getElementById("createRegit2").value;
+
+  if(pwd1 != pwd2){
+    document.getElementById("ifConfirmFalse").innerHTML = "密码确认不符合";
+    document.getElementById("ifConfirmFalseE").innerHTML = "Password Confirmation Mismatch";
+  }
+  else{
+    document.getElementById("createRegit").submit();
+  }
+  
+}
+
           $(document).ready(function(){         
             $("#registryTrigger1").click(function(){
               $("#registryText").show();
@@ -250,6 +264,10 @@ document.getElementById("keyValiTrigger2").onclick = function() {
     document.getElementById("login2").submit();
 }
 
+document.getElementById("keyValiTrigger3").onclick = function() {
+    document.getElementById("login3").submit();
+}
+
 
 var ck_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
 var ck_password =  /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
@@ -257,8 +275,8 @@ var ck_password =  /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
 
 function validate(form){
 
- var email = form.email.value;
- var password = form.password.value;
+ var email = form.elements["email"].value;
+ var password = form.elements["pwd"].value;
  var errors = [];
  
 console.log(email);
@@ -306,8 +324,30 @@ function NotRight(){
 
          //findkeyText
 
+document.getElementById("FKConfirm").onclick = function() {
+    document.getElementById("createFK").submit();
+}
+
           $(document).ready(function(){         
-            $(".findkeyTrigger").click(function(){
+            $("#findkeyTrigger1").click(function(){
+              $("#findkeyText").show();
+              $("#ValiText").hide();
+              $("#popUpText").hide();
+              $("#container2").css({ opacity: 0.3 });
+            });
+          });
+
+          $(document).ready(function(){         
+            $("#findkeyTrigger2").click(function(){
+              $("#findkeyText").show();
+              $("#ValiText").hide();
+              $("#popUpText").hide();
+              $("#container2").css({ opacity: 0.3 });
+            });
+          });
+
+          $(document).ready(function(){         
+            $("#findkeyTrigger3").click(function(){
               $("#findkeyText").show();
               $("#ValiText").hide();
               $("#popUpText").hide();
@@ -326,7 +366,7 @@ function NotRight(){
               }          
           });
 
-          $( ".findkeyCancel" ).click(function () {           
+          $( "#findkeyCancel" ).click(function () {           
               $( "#findkeyText" ).hide(); 
               if ( $( "#sub-header-nav" ).is( ":visible" ) ) {
               $("#container2").css({ opacity: 1 });
