@@ -207,6 +207,14 @@
 
 
 
+//subsribe
+
+document.getElementById("subscribeTrigger").onclick = function() {
+  var subscribeIDV = document.getElementById("subscribeID").value;
+    document.getElementById("subscribe").submit();
+}
+
+
 
           //registry
 
