@@ -1,0 +1,809 @@
+
+
+#header{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color:#ffffff;
+} 
+
+
+    /* hidden nav bar */
+    
+    .indicate{
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+    
+    
+    #sub-header-nav{
+        margin-left: auto ;
+        margin-right: auto ;
+        width: 60.000em;
+        position: relative;
+    }
+    
+    
+    .sub-nav-title{
+    	text-align: center;
+        color: #5590C5;
+        font-family: "Microsoft YaHei";
+        font-size: 1.125em;
+    }
+    
+    
+    .nav {
+    	text-align: left;
+        color: #888889;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em; 
+        float:left; 
+    }
+    
+    
+    .sub-nav {
+        color: #5590C5;
+    }
+    
+    .sub-nav2 {
+        color: #5590C5;
+        font-size: 0.750em;
+    }
+    
+    
+    a.sub-nav2:link {
+        color:#5590C5;
+    }
+    
+    
+    a.sub-nav2:visited {
+        color:#5590C5;
+    }
+    
+    .nav-end {
+        text-align: center;
+        color: #888889;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* show nav bar */
+    
+    #header-nav{ 
+        margin-left: auto ;
+        margin-right: auto ;
+        padding-bottom: 0.500em;
+        height: 6.250em ;
+        width: 60.000em;
+        position: relative;
+    }
+    
+    #button {
+        text-align: center; 
+        padding-top: 60px;
+    }
+    
+    #button2 {
+       position:absolute;
+       top:1.250em;
+       right:1.250em;
+    }
+    
+    .naviShowMenu{
+        padding-top: 4.250em;
+        text-align: center;
+        color: #5590C5;
+        font-family: "Microsoft YaHei";
+        font-size: 0.875em;
+    }
+
+     
+    .naviLine {
+        margin: 0;
+        border: none;
+        height: 0.125em;
+        background-color: #5590C5;
+        width:"100%"
+    }
+
+   
+    a:link {
+        color: #888889;
+    }
+    
+    a:visited {
+        color: #888889;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-left: 0; 
+    }
+    
+    
+    #header-light{
+        text-align:center; 
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%; 
+        background-color: #ffffff; 
+        height:1.375em;
+    } 
+
+
+
+
+
+
+/* all-content */
+
+body{
+   margin: 0px;
+} 
+
+
+#contentHolderBackground{
+    padding-top: 1.875em;
+    background-color:#f4f4f4;
+    position: relative;
+    height:276.250em;
+} 
+
+#contentHolder{
+    text-align: center;
+    position: relative;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 60.000em;
+} 
+
+.content-bottom{
+  margin: 1.875em;
+  padding-bottom: 0.625em;
+  text-align: center;
+  font-family:"Microsoft YaHei";
+}
+
+.content-ln1{
+ font-size: 1.000em;
+ color: #595757;
+}
+
+.content-2-ln1{
+ font-size: 1.250em;
+ color: #595757;
+}
+
+.content-2-ln2{
+ font-size: 0.750em;
+ color: #c9c9c7;
+}
+
+.content-2-ln3{
+ font-size: 0.750em;
+ color: #898989;
+}
+
+
+.advertise{
+ margin: 0;
+ padding: 0;
+ width: 18.750em; 
+ height: 12.000em;
+ background-color:#6c6c6c;
+}
+
+ul.advertise {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.advertise li {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul.advertiseIndicator {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.advertiseIndicator li {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.content-text{
+ background-color:#ffffff;
+ width: 18.750em;
+ text-align: center;
+ padding-top: 1.875em;
+ height: 44.625em;
+ font-family:"Microsoft YaHei";
+ text-align: left;
+ color: #7D7D7D;
+}
+
+.content-2-ln4header{
+ font-size: 0.875em;
+ line-height:50%;
+ padding-left: 3.625em;
+}
+
+
+.content-2-ln4{
+ font-size: 0.750em;
+ line-height:50%;
+ padding-left: 4.125em;
+}
+
+p.content-2-ln4{
+    margin-top:3px;
+    margin-bottom:3px;
+    line-height:100%;
+}
+
+
+hr.content-div{
+height: 1px;
+border: 0 none;
+width: 66%;
+background: #c9c9c7;
+}
+
+.content-divSpare{
+ font-size: 1px;
+}
+
+
+.content{
+ background-color:#ffffff;
+ text-align: center;
+ width: 18.750em;
+ height: 22.625em;
+}
+
+.content-2{
+ background-color:#ffffff;
+ text-align: center;
+ width: 39.375em;
+ height: 35.875em;
+}
+
+
+.advertiseHolder2{
+    margin: 0;
+    padding: 0;
+    width: 18.750em; 
+    height: 15.625em;
+    background-color:#6c6c6c; 
+}
+
+.content-text2{
+ background-color:#ffffff;
+ width: 18.750em;
+ text-align: left;
+ padding-top: 1.250em;
+ height: 27.625em;
+ font-family:"Microsoft YaHei";
+}
+
+.content-2-ln4Limit{
+ font-size: 0.750em;
+ color: #7D7D7D;
+ line-height:50%;
+ padding-left: 4.125em;
+ padding-right: 3.125em;
+}
+
+p.content-2-ln4Limit{
+    margin-top:0.188em;
+    margin-bottom:0.188em;
+    line-height:100%;
+}
+
+
+.content-2-ln4headerF{
+ font-size: 0.875em;
+ color: #7D7D7D;
+ line-height:50%;
+ padding-left: 3.525em;
+ padding-right: 3.125em;
+}
+
+p.content-2-ln4headerF{
+    margin-top:0.188em;
+    margin-bottom:1.125em;
+    line-height:100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* pages */
+
+.all-pages{
+ width: 25.000em;
+ height: 1.313em;
+ font-family:"Microsoft YaHei";
+ font-size: 0.875em;
+ text-align: center;
+}
+
+li.pages {
+  display:inline;
+  margin: 0.375em;
+}
+
+
+
+/* community */
+
+#footerHolder{
+    background-color: #fbfbfb;
+    padding-bottom: 0.938em;
+}
+
+.happening {
+    padding-top: 0.938em;
+    padding-bottom: 0.938em;
+    margin-top: 1.875em;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 60.000em;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    color: #C9C9C7;
+}
+
+
+
+#communityUpdate {
+    position: relative;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 60.000em;
+    background: #ededed;
+    font-family:"Microsoft YaHei";
+    overflow: hidden;
+}
+
+
+.comm_All {
+    color: #898989;
+    font-size: 0.750em;
+    float:left;
+    width:45%;
+}
+
+.comm_pic {
+    padding: 0.188em;
+    margin-top: 0.188em;
+    margin-right: 0.313em;
+    float:left;
+}
+
+.comm_upload {
+    padding-top: 0.188em;
+    margin-top: 0.188em;
+    margin-bottom: 0.375em;
+    float:left;
+}
+
+.comm_middleSpace {
+    width:10%;
+    float:left;
+}
+
+/* appendix */
+
+.appendixHolder {
+    background-color: #fbfbfb;
+    height: 2.500em;
+}
+
+.all-appendix {
+    font-family:"Microsoft YaHei";
+    font-size: 0.750em;
+}
+
+ul.appendixTable{
+    display: block; 
+    text-align:center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.813em;
+}
+
+li.appendix {
+  display:inline;
+  margin: 1px;
+}
+
+a.appendixA{
+    color: #cacaca;
+}
+
+
+
+
+
+/* button */
+.floatTextBox{
+    position: fixed; 
+    right:50%; 
+    margin-right:31.875em;
+    top:2.500em; 
+    height:1.875em;
+}
+
+.back-to-top{
+    position: fixed; 
+    left:50%; 
+    margin-left:31.875em;
+    bottom:3.438em; 
+    height:1.875em; 
+}
+
+
+/* popUp */
+#popUpText {
+    position: fixed; 
+    z-index:15;
+     top:50%;
+     left:50%;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
+    height:auto;
+
+}
+
+
+
+.popUpHolder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A4C7E0;
+    width: 39.375em;
+    height: auto;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    padding-top: 3.875em; 
+    padding-bottom: 4.750em;
+}
+
+.popUp-nav {
+    text-align: center;
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;  
+    margin-top: 2.063em;
+    margin-bottom: 2.063em;
+}
+
+li.popUp-navLI {
+    list-style-type: none;
+}
+
+
+.all-share {
+    text-align:center;
+    font-family:"Microsoft YaHei";
+    font-size: 0.750em;
+    padding-top: 0.625em;
+    margin-left: 6.250em;
+    margin-right: 6.250em;
+}
+
+.all-shareDetail{
+    width:100%;
+    text-align:left;
+    font-family:"Microsoft YaHei";
+    font-size: 0.875em;
+    padding-left: 2.500em;
+}
+
+li.share {
+  display:inline;
+  margin: 1px;
+}
+
+li.share1 {
+  display:inline;
+  margin: 1px;
+  color: #c9c9c7;
+  font-family: "Microsoft YaHei";
+  font-size: 0.875em;
+}
+
+
+a.shareA:link {
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;
+}
+
+a.shareA:visited {
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* share */
+#shareText {
+     position:fixed;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin-left:-17.250em;
+     margin-top:-11.063em;
+     height:auto;
+
+}
+
+.shareHolder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A4C7E0;
+    width: 26.875em;
+    height: auto;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    padding-top: 2.375em; 
+    padding-left: 3.750em; 
+    padding-right: 3.750em;
+    padding-bottom: 3.625em;
+}
+
+.content-divSpare2{
+ font-size: 0.625em;
+}
+
+#button6 {
+   position:absolute;
+   top:1.250em;
+   right:1.250em;
+}
+
+
+
+/* registry */
+#registryText {
+     position:fixed;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
+     height:auto;
+
+}
+
+.registryHolder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A4C7E0;
+    width: 39.375em;
+    height: auto;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
+}
+
+.registryAll {
+
+    text-align: left;
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;  
+}
+
+.content-divSpare2{
+ font-size: 0.625em;
+}
+
+#button3 {
+    position:absolute;
+   top:1.250em;
+   right:1.250em;
+}
+
+
+
+
+
+/* Vali */
+#ValiText {
+     position:fixed;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
+     height: auto;
+
+}
+
+.ValiHolder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A4C7E0;
+    width: 39.375em;
+    height: auto;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
+}
+
+.ValiAll {
+    text-align: left;
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;  
+}
+
+
+#button4 {
+    position:absolute;
+   top:1.250em;
+   right:1.250em;
+}
+
+
+
+/* findkey */
+#findkeyText {
+     position:fixed;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin-left:-19.750em;
+     margin-top:-11.063em;
+     height:auto;
+
+}
+
+.findkeyHolder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A4C7E0;
+    width: 39.375em;
+    height: auto;
+    background: white;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    padding-top: 2.375em; 
+    padding-bottom: 3.625em;
+}
+
+.findkeyAll {
+    text-align: left;
+    color: #888889;
+    font-family: "Microsoft YaHei";
+    font-size: 0.875em;  
+}
+
+
+#button5 {
+    position:absolute;
+   top:1.250em;
+   right:1.250em;
+}
+
+
+
+/* inputStyle */
+
+form{ 
+margin:0px; 
+padding:0px; 
+font:0.875em; 
+} 
+
+label{
+ display: inline-block;
+ float: left;
+ clear: left;
+ width: 50%;
+ text-align: right;
+}
+
+input.txt{ 
+font:0.875em Arial; 
+display: inline-block;
+float: left;
+} 
+
+input.txt1{ 
+font:0.875em Arial; 
+}
+
+.txt{ 
+
+border-bottom:1px solid #888889; 
+border-top:0; 
+border-left:0; 
+border-right:0; 
+background-color:transparent; 
+
+} 
+
+.txt1{ 
+
+border-bottom:1px solid #888889; 
+border-top:0; 
+border-left:0; 
+border-right:0; 
+background-color:transparent; 
+
+} 
+
+input:focus{
+outline:none;
+}
+
+
+
+/* button */
+
+.buttonAD{
+    text-decoration:none; 
+    text-align:center; 
+ padding:0.625em 2.500em; 
+ border:none; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:0.750em Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#888889; 
+ background-color:#f4f4f4; 
+ 
+  
+  }.buttonAD:hover{
+border:none; 
+ background-color:#ededed; 
+ 
+  
+ }
+
+ .buttonAD:active{
+    border:none; 
+background-color:#b9b9b9;   
+ }
