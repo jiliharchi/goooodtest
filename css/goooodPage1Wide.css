@@ -1,11 +1,4 @@
 
-/* Determine devices */
-
-/* Desktop Version */
-/*
-@media screen  {
-*/
-/* start of the header */
 
 #header{
     position: relative;
@@ -37,7 +30,7 @@
     	text-align: center;
         color: #5590C5;
         font-family: "Microsoft YaHei";
-        font-size: 18px;
+        font-size: 1.125em;
     }
     
     
@@ -814,22 +807,3 @@ border:none;
     border:none; 
 background-color:#b9b9b9;   
  }
-/*
-}
-*/
-/*
-/* iphone Version */
-/*
-@media screen and (max-device-width: 480px) {
-
-    #header{
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background-color:black;
-} 
-
-}
-*/
