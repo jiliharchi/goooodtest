@@ -663,6 +663,8 @@ $(document).ready(function() {
 
   if($(window).width() < 583){
 
+    $('.indicate').attr('src', '');
+
     $(".content-2").css("width", window.innerWidth*0.95);
     $(".content-2").css("height", window.innerWidth*0.95*0.91111111111);
     $(".content-2").css("left", 8+"px");
