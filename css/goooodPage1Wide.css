@@ -160,10 +160,18 @@ body{
 } 
 
 #contentHolder{
-    text-align: center;
-    position: relative;
     margin-left: auto ;
     margin-right: auto ;
+    text-align: center;
+    position: relative;
+    width: 60.000em;
+} 
+
+#all-article{
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: center;
+    position: relative;
     width: 60.000em;
 } 
 
@@ -201,6 +209,16 @@ body{
  width: 18.750em; 
  height: 12.000em;
  background-color:#6c6c6c;
+ position: absolute; 
+}
+
+.advertise2{
+ margin: 0;
+ padding: 0;
+ width: 18.750em; 
+ height: 15.625em;
+ background-color:#6c6c6c;
+ position: absolute; 
 }
 
 ul.advertise {
@@ -239,6 +257,7 @@ ul.advertiseIndicator {
  font-family:"Microsoft YaHei";
  text-align: left;
  color: #7D7D7D;
+ position: absolute;
 }
 
 .content-2-ln4header{
@@ -278,6 +297,7 @@ background: #c9c9c7;
  text-align: center;
  width: 18.750em;
  height: 22.625em;
+ position: absolute;
 }
 
 .content-2{
@@ -285,6 +305,7 @@ background: #c9c9c7;
  text-align: center;
  width: 39.375em;
  height: 35.875em;
+ position: absolute;
 }
 
 
@@ -303,6 +324,7 @@ background: #c9c9c7;
  padding-top: 1.250em;
  height: 27.625em;
  font-family:"Microsoft YaHei";
+ position: absolute;
 }
 
 .content-2-ln4Limit{
@@ -342,11 +364,17 @@ a {
 /* pages */
 
 .all-pages{
- width: 25.000em;
+ width: 100%;
  height: 1.313em;
  font-family:"Microsoft YaHei";
  font-size: 0.875em;
  text-align: center;
+ position: absolute;
+ top: 310.938em;
+}
+
+ul.pagesH{
+display: inline-block;
 }
 
 li.pages {
