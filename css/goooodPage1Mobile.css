@@ -13,15 +13,14 @@
     /* hidden nav bar */
     
     .indicate{
-        padding-top: 10px;
-        padding-bottom: 10px;  
+        padding: 0;  
     }
     
     
     #sub-header-nav{
         margin-left: auto ;
         margin-right: auto ;
-        width: 60.000em;
+        width: 95%;
         position: relative;
     }
     
@@ -30,7 +29,7 @@
     	text-align: center;
         color: #5590C5;
         font-family: "Microsoft YaHei";
-        font-size: 1.125em;
+        font-size: 0.875em;
     }
     
     
@@ -38,7 +37,7 @@
     	text-align: left;
         color: #888889;
         font-family: "Microsoft YaHei";
-        font-size: 0.875em; 
+        font-size: 0.750em; 
         float:left; 
     }
     
@@ -86,12 +85,16 @@
         width: 60.000em;
         position: relative;
     }
-    
-    #iconMobile{
-        display: none;
-        left: 0em;
+
+    #logo{
+        padding-left: 10px;
+
     }
 
+    #iconMobile{
+        left: 20.500em;
+    }
+    
     #button {
         text-align: center; 
         padding-top: 60px;
@@ -106,9 +109,14 @@
     .naviShowMenu{
         padding-top: 4.250em;
         text-align: center;
+        width: 100%;
         color: #5590C5;
         font-family: "Microsoft YaHei";
         font-size: 0.875em;
+    }
+
+    .naviShowMenuTrigger{
+        display: none;
     }
 
      
@@ -140,9 +148,9 @@
         top: 0;
         left: 0;
         z-index: 1;
-        width: 100%; 
+        width: 0; 
         background-color: #ffffff; 
-        height:1.375em;
+        height:0;
     } 
 
 
@@ -197,16 +205,16 @@ li.mobileMenu{
     border-width: 1px;
 }
 
+
 #all-article{
     margin-left: auto ;
     margin-right: auto ;
     text-align: center;
     position: relative;
-    width: 60.000em;
 } 
 
 .content-bottom{
-  margin: 1.875em;
+  margin: 5.226%;
   padding-bottom: 0.625em;
   text-align: center;
   font-family:"Microsoft YaHei";
@@ -219,16 +227,19 @@ li.mobileMenu{
 
 .content-2-ln1{
  font-size: 1.250em;
+ font-size: 2.8vw;
  color: #595757;
 }
 
 .content-2-ln2{
  font-size: 0.750em;
+font-size: 2.08vw;
  color: #c9c9c7;
 }
 
 .content-2-ln3{
  font-size: 0.750em;
+ font-size: 2.08vw;
  color: #898989;
 }
 
@@ -240,6 +251,7 @@ li.mobileMenu{
  height: 12.000em;
  background-color:#6c6c6c;
  position: absolute; 
+ display: none;
 }
 
 .advertise2{
@@ -248,7 +260,8 @@ li.mobileMenu{
  width: 18.750em; 
  height: 15.625em;
  background-color:#6c6c6c;
- position: absolute; 
+ position: absolute;
+ display: none; 
 }
 
 ul.advertise {
@@ -268,6 +281,7 @@ ul.advertiseIndicator {
     margin: 0;
     padding: 0;
     position: relative;
+    display: none;
 }
 
 .advertiseIndicator li {
@@ -275,32 +289,36 @@ ul.advertiseIndicator {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
 }
 
 
 .content-text{
  background-color:#ffffff;
  width: 18.750em;
+ height: 44.625em;
  text-align: center;
  padding-top: 1.875em;
- height: 44.625em;
  font-family:"Microsoft YaHei";
  text-align: left;
  color: #7D7D7D;
  position: absolute;
+ display: none;
 }
 
 .content-2-ln4header{
  font-size: 0.875em;
- line-height:50%;
- padding-left: 3.625em;
+ font-size: 2.36vw;
+ line-height:80%;
+ padding-left: 19.3%;
 }
 
 
 .content-2-ln4{
  font-size: 0.750em;
- line-height:50%;
- padding-left: 4.125em;
+ font-size: 2.18vw;
+ line-height:80%;
+ padding-left: 19.3%;
 }
 
 p.content-2-ln4{
@@ -342,19 +360,20 @@ background: #c9c9c7;
 .advertiseHolder2{
     margin: 0;
     padding: 0;
-    width: 18.750em; 
-    height: 15.625em;
     background-color:#6c6c6c; 
+    width: 100%;
+    height:100%;
 }
 
 .content-text2{
  background-color:#ffffff;
  width: 18.750em;
+ height: 27.625em;
  text-align: left;
  padding-top: 1.250em;
- height: 27.625em;
  font-family:"Microsoft YaHei";
  position: absolute;
+ display: none;
 }
 
 .content-2-ln4Limit{
@@ -400,7 +419,6 @@ a {
  font-size: 0.875em;
  text-align: center;
  position: absolute;
- top: 310.938em;
 }
 
 ul.pagesH{
@@ -411,7 +429,6 @@ li.pages {
   display:inline;
   margin: 0.375em;
 }
-
 
 
 /* community */
@@ -444,6 +461,7 @@ li.pages {
     background: #ededed;
     font-family:"Microsoft YaHei";
     overflow: hidden;
+    display: none;
 }
 
 
@@ -513,6 +531,7 @@ a.appendixA{
     margin-right:31.875em;
     top:2.500em; 
     height:1.875em;
+    display: none;
 }
 
 .back-to-top{
@@ -521,6 +540,7 @@ a.appendixA{
     margin-left:31.875em;
     bottom:3.438em; 
     height:1.875em; 
+    display: none;
 }
 
 
@@ -812,6 +832,8 @@ input.txt1{
 font:0.875em Arial; 
 }
 
+
+
 .txt{ 
 
 border-bottom:1px solid #888889; 
@@ -835,7 +857,6 @@ background-color:transparent;
 input:focus{
 outline:none;
 }
-
 
 
 /* button */

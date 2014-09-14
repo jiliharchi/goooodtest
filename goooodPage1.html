@@ -12,11 +12,10 @@
     <meta name="author" content="JiliHuang">
     <script type="text/javascript" src="script\jquery-1.11.1.min.js"></script>
     
-    <link rel='stylesheet' media='screen and (max-width: 799px)' href='css\goooodPage1Narrow.css' />
+    <link rel='stylesheet' media='screen and (max-width: 599px)' href='css\goooodPage1Mobile.css' />
+    <link rel='stylesheet' media='screen and (min-width: 600px) and (max-width: 799px)' href='css\goooodPage1Narrow.css' />
     <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1099px)' href='css\goooodPage1Medium.css' />
     <link rel='stylesheet' media='screen and (min-width: 1100px)' href='css\goooodPage1Wide.css' />
-
-    <script src="script\respond.src.js"></script>
 
     <title>goooodPage1</title>
 
@@ -137,12 +136,17 @@
            <!--The showing menu-->
                  <div id="header-nav">
                   <a href="http://www.gooood.hk/">
-                    <img src="img\logo.jpg"  alt style="width: 12.250em; height: auto;cursor:pointer; position: absolute; top: 1.563em; left: 0; border:none;">
+                    <img src="img\logo.jpg"  alt style="width: 12.250em; height: auto;cursor:pointer; position: absolute; top: 1.563em; left: 0; border:none;" id="logo">
                   </a>
+
+                  <a>
+                    <img src="img\icon-mobile.png"  alt style="width: 1.600em; height: auto;cursor:pointer; position: absolute; top: 3.100em;  border:none;" id="iconMobile">
+                  </a>
+
                     <div id="button" style="display: none; cursor: pointer;"><img src="img\closing.png"></div>  
 
-                    <div href="#" class="naviShowMenu" style="cursor: pointer;">
-                      <br><a>菜单管理 explorer</a></br>
+                    <div href="#" class="naviShowMenu" >
+                      <br><a class="naviShowMenuTrigger" style="cursor: pointer;">菜单管理 explorer</a></br>
                     </div>   
 
                     <div style="clear:both;"></div>
@@ -170,9 +174,25 @@
 
 
 
+<!--start of mobile dropDownlist-->
 
-
-
+<div id="dropDownlistHolder" >
+  <ul id="dropDownlist">
+    <li class="mobileMenu">
+         <form action="gooood_search.asp">
+           <label style="text-align:left; color:#898989; width:100px;" id="mobileLabel">搜索 Search: </label>
+           <input type="text" name="name" class="txt" style="width:8.000em;"><br>
+         </form>
+    </li>
+    <li class="mobileMenu"><a style ="cursor:pointer; color:#898989;" id="mobileLoginTrigger">我的账号 i-gooood</a></li>
+    <li class="mobileMenu"><a href="http://www.aa13.fr">行业招聘 Job</a></li>
+    <li class="mobileMenu"><a href="http://www.aa13.fr">专辑 Aibum</a></li>
+    <li class="mobileMenu"><a href="http://www.aa13.fr">日常新闻 News</a></li> 
+    <li class="mobileMenu"><a style ="cursor:pointer; color:#898989;" id="mobileShareTrigger">快速分享 Share</a></li>
+    <li class="mobileMenu"><a href="http://www.aa13.fr">信息 Info</a></li> 
+    <li class="mobileMenu"><a href="http://www.aa13.fr">关注我们 Join Us</a></li>
+  </ul>
+</div>
 
 
 
@@ -184,6 +204,7 @@
 <!--start of the content-->
 
 <div id="contentHolderBackground">
+
    <div id="contentHolder">
      <div id="all-article">
 
