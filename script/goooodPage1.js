@@ -613,7 +613,7 @@ $(document).ready(function() {
 
     // scale position
 
-    $("#iconMobile" ).css("left", window.innerWidth-70+"px");
+    $("#iconMobile" ).css("left", window.innerWidth-50+"px");
 
     $("#articleIndex1").css("left", window.innerWidth*0.01645);
     $("#articleIndex2").css("top", window.innerWidth*0.90857);
@@ -665,13 +665,13 @@ $(document).ready(function() {
 
     $(".content-2").css("width", window.innerWidth*0.95);
     $(".content-2").css("height", window.innerWidth*0.95*0.91111111111);
-    $(".content-2").css("left", 5+"px");
+    $(".content-2").css("left", 8+"px");
     $(".content-2").css("top", 0);
     $(".content-2").css("position","relative");
     $(".content-2").css("margin-bottom",30+"px");
     $(".content").css("width", window.innerWidth*0.95);
     $(".content").css("height", window.innerWidth*0.95*0.91111111111);
-    $(".content").css("left", 5+"px");
+    $(".content").css("left", 8+"px");
     $(".content").css("top", 0);
     $(".content").css("position","relative");
     $(".content").css("margin-bottom",30+"px");
@@ -685,7 +685,7 @@ $(document).ready(function() {
 
     // scale position
 
-    $("#iconMobile" ).css("left", window.innerWidth-70+"px");
+    $("#iconMobile" ).css("left", window.innerWidth-50+"px");
 
   }
 
@@ -964,6 +964,8 @@ $(window).resize(function() {
   }
 
   if($(window).width() < 583){
+
+    $('.indicate').attr('src', '');
 
     $(".content-2").css("width", window.innerWidth*0.95);
     $(".content-2").css("height", window.innerWidth*0.95*0.91111111111);
