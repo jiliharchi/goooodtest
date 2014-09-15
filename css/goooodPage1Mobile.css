@@ -576,7 +576,7 @@ a.appendixA{
     text-align: center;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;  
+    font-size: 0.675em;  
     margin-top: 2.063em;
     margin-bottom: 2.063em;
 }
@@ -589,7 +589,7 @@ li.popUp-navLI {
 .all-share {
     text-align:center;
     font-family:"Microsoft YaHei";
-    font-size: 0.750em;
+    font-size: 0.550em;
     padding-top: 0.625em;
     margin-left: 6.250em;
     margin-right: 6.250em;
@@ -613,20 +613,20 @@ li.share1 {
   margin: 1px;
   color: #c9c9c7;
   font-family: "Microsoft YaHei";
-  font-size: 0.875em;
+  font-size: 0.675em;
 }
 
 
 a.shareA:link {
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;
+    font-size: 0.675em;
 }
 
 a.shareA:visited {
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;
+    font-size: 0.675em;
 }
 
 
@@ -665,6 +665,9 @@ a.shareA:visited {
     padding-right: 3.750em;
     padding-bottom: 3.625em;
 }
+
+
+
 
 .content-divSpare2{
  font-size: 0.625em;
@@ -708,7 +711,7 @@ a.shareA:visited {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;  
+    font-size: 0.675em;  
 }
 
 .content-divSpare2{
@@ -754,7 +757,7 @@ a.shareA:visited {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;  
+    font-size: 0.675em;  
 }
 
 
@@ -795,7 +798,7 @@ a.shareA:visited {
     text-align: left;
     color: #888889;
     font-family: "Microsoft YaHei";
-    font-size: 0.875em;  
+    font-size: 0.675em;  
 }
 
 
@@ -812,7 +815,7 @@ a.shareA:visited {
 form{ 
 margin:0px; 
 padding:0px; 
-font:0.875em; 
+font:0.675em; 
 } 
 
 label{
@@ -824,13 +827,13 @@ label{
 }
 
 input.txt{ 
-font:0.875em Arial; 
+font:0.675em Arial; 
 display: inline-block;
 float: left;
 } 
 
 input.txt1{ 
-font:0.875em Arial; 
+font:0.675em Arial; 
 }
 
 

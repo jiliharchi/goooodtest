@@ -555,6 +555,17 @@ $(document).ready(function() {
     $("#communityUpdate").css("width", window.innerWidth);
     $(".naviShowMenu").css("width", window.innerWidth);
 
+     $(".popUpHolder").css("width", window.innerWidth*0.65);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".shareHolder").css("width", window.innerWidth*0.65);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".registryHolder").css("width", window.innerWidth*0.65);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".ValiHolder").css("width", window.innerWidth*0.65);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".findkeyHolder").css("width", window.innerWidth*0.65);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.33);
+
   // scale position
 
     $(".advertise").css("left", window.innerWidth*0.600545950*Diff+"px");
@@ -609,6 +620,16 @@ $(document).ready(function() {
     $(".content").css("width", window.innerWidth*0.95*0.4761905);
     $(".content").css("height", window.innerWidth*0.95*0.4761905*1.2066666667);
     $("#contentHolderBackground").css("height", window.innerWidth*8.44286);
+    $(".popUpHolder").css("width", window.innerWidth*0.86);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".shareHolder").css("width", window.innerWidth*0.86);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".registryHolder").css("width", window.innerWidth*0.86);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".ValiHolder").css("width", window.innerWidth*0.86);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".findkeyHolder").css("width", window.innerWidth*0.86);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.45);
 
 
     // scale position
@@ -683,6 +704,17 @@ $(document).ready(function() {
     $(".all-pages").css("width", window.innerWidth-13);
     $("#contentHolderBackground").css("height", "auto");
     $(".happening").css("width", window.innerWidth);
+
+    $(".popUpHolder").css("width", window.innerWidth*0.90);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".shareHolder").css("width", window.innerWidth*0.90);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".registryHolder").css("width", window.innerWidth*0.90);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".ValiHolder").css("width", window.innerWidth*0.90);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".findkeyHolder").css("width", window.innerWidth*0.90);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.47);
 
 
     // scale position
@@ -769,6 +801,17 @@ $(window).resize(function() {
     $("#communityUpdate").css("width", window.innerWidth);
     $(".naviShowMenu").css("width", window.innerWidth);
 
+    $(".popUpHolder").css("width", window.innerWidth*0.65);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".shareHolder").css("width", window.innerWidth*0.65);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".registryHolder").css("width", window.innerWidth*0.65);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".ValiHolder").css("width", window.innerWidth*0.65);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.33);
+    $(".findkeyHolder").css("width", window.innerWidth*0.65);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.33);
+
   // scale position
 
     $(".advertise").css("left", window.innerWidth*0.600545950*Diff+"px");
@@ -845,6 +888,17 @@ $(window).resize(function() {
     $("#communityUpdate").css("width", 60.000+"em");
     $(".naviShowMenu").css("width", 100 + "%");
 
+    $(".popUpHolder").css("width", 660+"px");
+    $("#popUpText").css("margin-left", -19.750+"em");
+    $(".shareHolder").css("width", 26.875+"em");
+    $("#shareText").css("margin-left", -19.750+"em");
+    $(".registryHolder").css("width", 660+"px");
+    $("#registryText").css("margin-left", -19.750+"em");
+    $(".ValiHolder").css("width", 660+"px");
+    $("#ValiText").css("margin-left", -19.750+"em");
+    $(".findkeyHolder").css("width", 660+"px");
+    $("#findkeyText").css("margin-left", -19.750+"em");
+
   // scale position
 
     $(".advertise").css("left", 41.250+"em");
@@ -913,6 +967,17 @@ $(window).resize(function() {
     $(".content").css("margin-bottom",0);
     $(".all-pages").css("position","absolute");
     $(".all-pages").css("height",1.313+"em");
+
+    $(".popUpHolder").css("width", window.innerWidth*0.86);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".shareHolder").css("width", window.innerWidth*0.86);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".registryHolder").css("width", window.innerWidth*0.86);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".ValiHolder").css("width", window.innerWidth*0.86);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.45);
+    $(".findkeyHolder").css("width", window.innerWidth*0.86);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.45);
 
 
     // scale position
@@ -987,6 +1052,17 @@ $(window).resize(function() {
     $(".all-pages").css("width", window.innerWidth-13);
     $("#contentHolderBackground").css("height", "auto");
     $(".happening").css("width", window.innerWidth);
+
+    $(".popUpHolder").css("width", window.innerWidth*0.90);
+    $("#popUpText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".shareHolder").css("width", window.innerWidth*0.90);
+    $("#shareText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".registryHolder").css("width", window.innerWidth*0.90);
+    $("#registryText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".ValiHolder").css("width", window.innerWidth*0.90);
+    $("#ValiText").css("margin-left", -1*window.innerWidth*0.47);
+    $(".findkeyHolder").css("width", window.innerWidth*0.90);
+    $("#findkeyText").css("margin-left", -1*window.innerWidth*0.47);
 
 
     // scale position
